@@ -1,0 +1,19 @@
+def stop_ligth(traffic_ligth_):
+    print(traffic_ligth_)
+    red_LED_,blue_LED_,green_LED = traffic_ligth_
+    print(red_LED)
+    
+def main():
+    print("Welcome to the STEAM Clown Makey Bot")
+ #   while(True)
+  #   print("LED on")
+    # time.sleep(1)
+ #    print("LED off")
+    # Red_led.offf()
+   #  time.sleep(1)
+    traffic_ligth_ = {'red_LED': 0, 'blue_LED': 1,'green_LED': 1}
+    stop_ligth(traffic_ligth_)
+
+    
+main()
+
